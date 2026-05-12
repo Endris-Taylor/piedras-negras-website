@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Mexican Folk Art Rooster — Piedras Negras De Noche -->
+
+  <!-- Tail feathers (elaborate, flowing, multicolored) -->
+  <path d="M38 100 C20 70, 5 50, 2 20 C8 35, 16 50, 28 75 C22 55, 12 35, 10 10 C18 30, 24 50, 32 72Z" fill="#e74c3c"/>
+  <path d="M42 95 C30 65, 18 40, 20 8 C26 28, 30 48, 38 70 C34 48, 28 28, 30 5 C36 25, 38 48, 42 68Z" fill="#f39c12"/>
+  <path d="M46 92 C38 62, 35 38, 42 6 C42 28, 42 50, 46 70 C44 46, 44 26, 50 4 C48 28, 48 50, 48 70Z" fill="#f1c40f"/>
+  <path d="M50 90 C46 60, 50 35, 58 8 C54 30, 52 52, 52 72 C54 48, 58 28, 64 6 C58 30, 56 52, 54 72Z" fill="#27ae60"/>
+  <path d="M54 88 C54 58, 60 34, 70 12 C64 34, 60 54, 58 74 C62 50, 66 30, 74 10 C66 34, 62 54, 60 74Z" fill="#1a8c5e"/>
+  <path d="M56 88 C58 58, 66 36, 78 16 C70 36, 64 56, 62 76Z" fill="#e74c3c" opacity="0.7"/>
+
+  <!-- Tail feather details (thin accent lines) -->
+  <path d="M30 70 C24 50, 16 35, 12 15" stroke="#96281b" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M40 68 C36 48, 32 32, 32 10" stroke="#d35400" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M48 68 C46 48, 48 30, 52 8" stroke="#c0392b" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- Body -->
+  <ellipse cx="85" cy="108" rx="35" ry="28" fill="#e74c3c"/>
+  <ellipse cx="85" cy="110" rx="30" ry="24" fill="#c0392b"/>
+
+  <!-- Breast/chest (golden) -->
+  <ellipse cx="100" cy="115" rx="18" ry="20" fill="#f1c40f" opacity="0.85"/>
+  <ellipse cx="100" cy="117" rx="14" ry="16" fill="#f39c12" opacity="0.6"/>
+
+  <!-- Wing (teal/green with detail) -->
+  <ellipse cx="75" cy="105" rx="22" ry="16" fill="#1a8c5e" transform="rotate(-8 75 105)"/>
+  <ellipse cx="75" cy="105" rx="18" ry="12" fill="#27ae60" transform="rotate(-8 75 105)" opacity="0.7"/>
+  <!-- Wing feather lines -->
+  <path d="M60 100 C65 95, 75 93, 85 97" stroke="#145e3f" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M58 105 C65 100, 75 98, 88 102" stroke="#145e3f" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M58 110 C65 106, 76 104, 88 108" stroke="#145e3f" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- Neck -->
+  <path d="M108 98 C114 82, 118 68, 120 55 C126 68, 124 82, 118 98Z" fill="#e74c3c"/>
+  <path d="M110 95 C115 80, 118 66, 122 54 C126 66, 124 80, 120 95Z" fill="#c0392b"/>
+
+  <!-- Head -->
+  <circle cx="122" cy="48" r="18" fill="#e74c3c"/>
+  <circle cx="122" cy="48" r="15" fill="#c0392b"/>
+
+  <!-- Comb (elaborate, 3-pointed) -->
+  <path d="M110 34 C108 20, 116 14, 118 22 C118 12, 124 8, 126 18 C128 6, 136 10, 134 22 C138 14, 142 20, 136 30 C130 26, 124 24, 118 28 C114 26, 112 30, 110 34Z" fill="#e74c3c"/>
+  <path d="M112 32 C110 22, 116 16, 118 24 C118 14, 124 10, 126 20 C128 10, 134 14, 132 24 C136 18, 140 22, 134 28" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Eye -->
+  <circle cx="128" cy="44" r="5" fill="#ffffff"/>
+  <circle cx="129" cy="44" r="3" fill="#2c2c2c"/>
+  <circle cx="130" cy="43" r="1" fill="#ffffff"/>
+
+  <!-- Beak (yellow, sharp) -->
+  <path d="M137 50 L155 46 L137 56Z" fill="#f1c40f"/>
+  <path d="M137 50 L155 46 L146 50Z" fill="#f9e547"/>
+
+  <!-- Wattle (under beak) -->
+  <path d="M132 56 C130 62, 126 68, 124 64 C126 60, 130 58, 132 56Z" fill="#c0392b"/>
+  <ellipse cx="128" cy="66" rx="5" ry="7" fill="#e74c3c"/>
+  <ellipse cx="128" cy="66" rx="3.5" ry="5" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Legs -->
+  <line x1="80" y1="132" x2="74" y2="165" stroke="#f39c12" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="95" y1="132" x2="100" y2="165" stroke="#f39c12" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Feet (3-toed) -->
+  <path d="M62 165 L74 165 L82 165" stroke="#f39c12" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M70 162 L74 172" stroke="#f39c12" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M66 164 L72 168" stroke="#f39c12" stroke-width="2" stroke-linecap="round"/>
+  <path d="M88 165 L100 165 L110 165" stroke="#f39c12" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M96 162 L100 172" stroke="#f39c12" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M92 164 L98 168" stroke="#f39c12" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Body feather accents -->
+  <path d="M70 120 C75 116, 82 114, 90 116" stroke="#96281b" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M68 126 C74 122, 82 120, 92 122" stroke="#96281b" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the full menu at Piedras Negras De Noche — breakfast tacos, enchiladas, fajitas, steaks, seafood, and more authentic Tex-Mex dishes.">
+  <title>Menu | Piedras Negras De Noche</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>📍 1322 S. Laredo St., San Antonio, TX 78204</span>
+    <span>📞 <a href="tel:2102277777">(210) 227-7777</a></span>
+  </div>
+  <div class="aztec-border"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <img src="images/rooster.svg" alt="Piedras Negras rooster mascot" class="mascot-logo">
+        Piedras Negras <span>De Noche</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>Our Menu</h1>
+    <p>Fresh, authentic Tex-Mex — made with love, served with pride.</p>
+  </section>
+
+  <div class="specials-banner">
+    🌶️ <span>ONE Complimentary Serving of Chips & Salsa</span> — 2nd order of chips $2.75. For parties of 6+, a charge will be added. 🌶️
+  </div>
+
+  <!-- Menu Section -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Search -->
+      <div class="menu-search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="menu-search" placeholder="Search the menu... (e.g. fajita, enchilada, shrimp)" autocomplete="off">
+      </div>
+
+      <!-- Category Nav -->
+      <div id="menu-nav" class="menu-nav"></div>
+
+      <!-- Menu Items Container (populated by JS from menu.json) -->
+      <div id="menu-container">
+        <div class="loading">Loading menu…</div>
+      </div>
+
+      <!-- Note -->
+      <div style="text-align:center; margin-top:40px; padding:20px; background:var(--yellow-bg); border-radius:var(--radius); border:1px solid #f0e6c4;">
+        <p style="color:var(--brown-med); font-size:0.92rem;">
+          <strong>Additional Items:</strong> Cheese, Potatoes, Beans, Add. Bacon, Ham, Sausage, Chorizo, Egg or Guacamole — available on breakfast tacos.<br>
+          <em>Some food items may have bones. Algunas comidas pueden tener huesos.</em><br>
+          <em>Not responsible for lost or stolen articles in restaurant or parking area.</em>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Piedras Negras De Noche</h4>
+          <img src="images/rooster.svg" alt="Piedras Negras rooster mascot" class="mascot-footer">
+          <p>Authentic Tex-Mex cuisine serving the San Antonio community with family recipes, bold flavors, and warm hospitality.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>1322 S. Laredo St.<br>San Antonio, TX 78204</p>
+          <p><a href="tel:2102277777">(210) 227-7777</a><br><a href="tel:2102277779">(210) 227-7779</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Mon – Thu: 7 AM – 3 PM<br>Fri – Sat: 7 AM – 10 PM<br>Sun: 7 AM – 3 PM</p>
+        </div>
+      </div>
+    </div>
+    <div class="aztec-border"></div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> Piedras Negras De Noche. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
