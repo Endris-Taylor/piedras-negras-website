@@ -14,13 +14,6 @@
 </head>
 <body>
 
-  <!-- Top Bar -->
-  <div class="top-bar">
-    <span>📍 1322 S. Laredo St., San Antonio, TX 78204</span>
-    <span>📞 <a href="tel:2102277777">(210) 227-7777</a></span>
-  </div>
-  <div class="aztec-border"></div>
-
   <!-- Header -->
   <header>
     <div class="container nav-wrapper">
@@ -37,6 +30,7 @@
           <li><a href="menu.html">Menu</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="tel:2102277777" class="nav-cta">📞 Call Us</a></li>
         </ul>
       </nav>
     </div>
@@ -44,23 +38,21 @@
 
   <!-- Page Hero -->
   <section class="page-hero">
-    <h1>About Us</h1>
-    <p>Our story, our family, our passion for Tex-Mex.</p>
+    <h1 class="yellow">Our Story</h1>
   </section>
 
   <!-- About Content -->
   <section class="section">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-text">
-          <h2>Our Story</h2>
-          <p>Piedras Negras De Noche has been a beloved fixture in San Antonio's south side community, bringing the authentic flavors of northern Mexico and Texas together on every plate. Our name pays homage to the border city of Piedras Negras, Coahuila — where many of our family recipes originated.</p>
-          <p>What started as a family dream has grown into a neighborhood institution, known for generous portions, handmade tortillas, and dishes that taste like home. From our signature breakfast tacos served at the crack of dawn to sizzling parrilladas shared with loved ones on Friday nights, every meal tells a story.</p>
-          <p>Our kitchen runs on tradition. We use the same recipes, the same techniques, and the same love that have defined our food since the very beginning. Whether you're craving a simple bean & cheese taco or our legendary Fajitas Texanas, you'll taste the difference that comes from cooking with heart.</p>
-        </div>
-        <div class="about-img">
-          <img src="Image (5).jpeg" alt="Piedras Negras De Noche restaurant building">
-        </div>
+    <div class="container about-flow">
+      <p>Piedras Negras De Noche has been a beloved fixture in San Antonio's south side community, bringing the authentic flavors of northern Mexico and Texas together on every plate. Our name pays homage to the border city of Piedras Negras, Coahuila — where many of our family recipes originated.</p>
+      <p>What started as a family dream has grown into a neighborhood institution, known for generous portions, handmade tortillas, and dishes that taste like home. From our signature breakfast tacos served at the crack of dawn to sizzling parrilladas shared with loved ones on Friday nights, every meal tells a story.</p>
+
+      <h2 class="about-subheading">The Tradition Continues</h2>
+      <p>Our kitchen runs on tradition. We use the same recipes, the same techniques, and the same love that have defined our food since the very beginning. Whether you're craving a simple bean & cheese taco or our legendary Fajitas Texanas, you'll taste the difference that comes from cooking with heart.</p>
+
+      <div class="about-photo">
+        <img src="images/about-photo.jpg" alt="The Rodriguez family — the heart of Piedras Negras De Noche">
+        <p class="about-photo-caption">The Rodriguez family — the heart and soul of Piedras Negras De Noche</p>
       </div>
     </div>
   </section>
@@ -70,6 +62,38 @@
     <h3>In Loving Memory of Pablo Rodriguez</h3>
     <p>The heart and soul of Piedras Negras De Noche. His vision, his passion for authentic Tex-Mex cooking,<br>and his dedication to family and community live on in every dish we serve.</p>
   </div>
+
+  <!-- Reviews Section -->
+  <section class="section reviews-section">
+    <div class="container">
+      <h2 class="section-title">What Our Guests Say</h2>
+      <div class="reviews-stars">★★★★★</div>
+      <p class="section-subtitle">Rated 4.8/5 on Google Reviews</p>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The Carne Asada is hands down the best in the city. The atmosphere at night is just unbeatable. Highly recommend!"</p>
+          <p class="review-author">– Sarah J.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"I've been coming here for 10 years. The quality has never dropped. The staff makes you feel like family."</p>
+          <p class="review-author">– Mike T.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Great food and huge portions. It gets a little busy on Friday nights, but it is worth the wait."</p>
+          <p class="review-author">– Amanda R.</p>
+        </div>
+      </div>
+
+      <div class="reviews-cta">
+        <p>Have you visited us recently?</p>
+        <a href="https://g.page/review" target="_blank" class="btn-review">Leave a Review</a>
+      </div>
+    </div>
+  </section>
 
   <!-- Values Section -->
   <section class="section section-alt">
@@ -122,7 +146,7 @@
       <p class="section-subtitle">Check out our full menu or stop by today!</p>
       <div style="display:inline-flex;gap:16px;flex-wrap:wrap;justify-content:center;">
         <a href="menu.html" class="btn btn-primary">View the Menu</a>
-        <a href="contact.html" class="btn" style="background:var(--red-primary);color:#fff;">Get Directions</a>
+        <a href="contact.html" class="btn btn-outline">Get Directions</a>
       </div>
     </div>
   </section>
@@ -135,6 +159,10 @@
           <h4>Piedras Negras De Noche</h4>
           <img src="images/rooster.svg" alt="Piedras Negras rooster mascot" class="mascot-footer">
           <p>Authentic Tex-Mex cuisine serving the San Antonio community with family recipes, bold flavors, and warm hospitality.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" style="stroke-width:2"/></svg></a>
+          </div>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>

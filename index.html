@@ -15,15 +15,6 @@
 </head>
 <body>
 
-  <!-- Top Info Bar -->
-  <div class="top-bar">
-    <span>📍 1322 S. Laredo St., San Antonio, TX 78204</span>
-    <span>📞 <a href="tel:2102277777">(210) 227-7777</a></span>
-  </div>
-
-  <!-- Decorative Border -->
-  <div class="aztec-border"></div>
-
   <!-- Header -->
   <header>
     <div class="container nav-wrapper">
@@ -40,6 +31,7 @@
           <li><a href="menu.html">Menu</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="tel:2102277777" class="nav-cta">📞 Call Us</a></li>
         </ul>
       </nav>
     </div>
@@ -47,22 +39,13 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-mascot-row">
-      <img src="images/rooster.svg" alt="" class="mascot-hero" aria-hidden="true">
-      <h1>Piedras Negras <span>De Noche</span></h1>
-      <img src="images/rooster.svg" alt="" class="mascot-hero flip" aria-hidden="true">
-    </div>
-    <p>Authentic Tex-Mex cuisine in the heart of San Antonio. Family recipes, bold flavors, and warm hospitality — served fresh every day.</p>
+    <h1>Taste the Night</h1>
+    <p>Authentic flavors, warm atmosphere, and the best BBQ &amp; Mexican cuisine in town.</p>
     <div class="hero-cta">
       <a href="menu.html" class="btn btn-primary">View Our Menu</a>
-      <a href="contact.html" class="btn btn-outline">Find Us</a>
+      <a href="contact.html" class="btn btn-outline">Get Directions</a>
     </div>
   </section>
-
-  <!-- Specials Banner -->
-  <div class="specials-banner">
-    🌶️ <span>ONE Complimentary Serving of Chips & Salsa</span> — For parties of 6 or more, a charge will be added. 🌶️
-  </div>
 
   <!-- Why Us Section -->
   <section class="section">
@@ -104,27 +87,36 @@
     </div>
   </section>
 
-  <!-- Popular Items Preview -->
+  <!-- Browse Our Menu — Visual Preview -->
   <section class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Fan Favorites</h2>
-      <p class="section-subtitle">Can't decide? Here are some of our most loved dishes.</p>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="icon">🥩</div>
-          <h3>Carne Asada — $11.25</h3>
-          <p>Grilled sirloin served with rice, beans & salad.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🔥</div>
-          <h3>Fajitas al Carbon — $32.95</h3>
-          <p>Make your own tacos for two — sizzling beef fajitas with all the fixings.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🌮</div>
-          <h3>Breakfast Tacos — from $0.90</h3>
-          <p>Over 30 varieties — bean & cheese, barbacoa, carne guisada, and more.</p>
-        </div>
+      <h2 class="section-title">Browse Our Menu</h2>
+      <p class="section-subtitle">Something for every appetite, morning to night.</p>
+      <div class="menu-preview-grid">
+        <a href="menu.html#breakfast" class="menu-preview-card">
+          <div class="preview-icon">🌅</div>
+          <h3>Breakfast</h3>
+          <p>Breakfast tacos, omelettes, pancakes & more — served fresh from 7 AM.</p>
+          <span class="btn-preview">Browse →</span>
+        </a>
+        <a href="menu.html#entrees" class="menu-preview-card">
+          <div class="preview-icon">🍽️</div>
+          <h3>Entrées</h3>
+          <p>Fajitas, enchiladas, parrilladas, steaks, seafood & authentic Mexican dinner plates.</p>
+          <span class="btn-preview">Browse →</span>
+        </a>
+        <a href="menu.html#starters" class="menu-preview-card">
+          <div class="preview-icon">🥗</div>
+          <h3>Starters</h3>
+          <p>Queso flameado, nachos, quesadillas, and more to kick off the meal.</p>
+          <span class="btn-preview">Browse →</span>
+        </a>
+        <a href="menu.html#drinks" class="menu-preview-card">
+          <div class="preview-icon">🍹</div>
+          <h3>Drinks &amp; Desserts</h3>
+          <p>Mexican Coke, horchata, margaritas, flan, sopapillas &amp; more.</p>
+          <span class="btn-preview">Browse →</span>
+        </a>
       </div>
       <div style="text-align:center;margin-top:40px;">
         <a href="menu.html" class="btn btn-primary">See Full Menu →</a>
@@ -132,11 +124,79 @@
     </div>
   </section>
 
-  <!-- Dedication -->
-  <div class="dedication-banner">
-    <h3>In Loving Memory of Pablo Rodriguez</h3>
-    <p>The heart and soul of Piedras Negras De Noche. His legacy lives on in every dish we serve.</p>
-  </div>
+  <!-- Daily Specials -->
+  <section class="section specials-section">
+    <div class="container">
+      <h2 class="section-title">Daily Specials</h2>
+      <p class="section-subtitle">Mon – Fri served with Tea &nbsp;|&nbsp; Sat (drink not included)</p>
+
+      <div class="specials-grid">
+
+        <div class="special-day">
+          <div class="special-day-header monday">Monday</div>
+          <ul>
+            <li><span>Puffy Taco Plate</span><span>$9.95</span></li>
+            <li><span>Calabacita con Pueco</span><span>$9.95</span></li>
+            <li><span>Puerco Verde</span><span>$9.95</span></li>
+            <li><span>Chili Relleno</span><span>$10.95</span></li>
+          </ul>
+        </div>
+
+        <div class="special-day">
+          <div class="special-day-header tuesday">Tuesday</div>
+          <ul>
+            <li><span>Pork Chop Plate</span><span>$10.95</span></li>
+            <li><span>Rotis Chicken</span><span>$10.95</span></li>
+            <li><span>Lengua Guisada</span><span>$11.95</span></li>
+            <li><span>Albondigas</span><span>$9.95</span></li>
+          </ul>
+        </div>
+
+        <div class="special-day">
+          <div class="special-day-header wednesday">Wednesday</div>
+          <ul>
+            <li><span>Beef Short Ribs</span><span>$15.95</span></li>
+            <li><span>Puerco Colorado</span><span>$9.95</span></li>
+            <li><span>Enchiladas Verdes</span><span>$9.95</span></li>
+            <li><span>Carnitas Plate</span><span>$10.95</span></li>
+          </ul>
+        </div>
+
+        <div class="special-day">
+          <div class="special-day-header thursday">Thursday</div>
+          <ul>
+            <li><span>Short Ribs #23</span><span>$10.95</span></li>
+            <li><span>Puffy Taco Plate</span><span>$9.95</span></li>
+            <li><span>Chicken Mole Plate</span><span>$9.95</span></li>
+            <li><span>Puerco Verde</span><span>$9.95</span></li>
+          </ul>
+        </div>
+
+        <div class="special-day">
+          <div class="special-day-header friday">Friday</div>
+          <ul>
+            <li><span>Fried Fish Plate</span><span>$10.95</span></li>
+            <li><span>4 Short Ribs</span><span>$15.95</span></li>
+            <li><span>Shrimp Quesadilla</span><span>$10.95</span></li>
+            <li><span>Fideo</span><span>$7.95</span></li>
+          </ul>
+        </div>
+
+        <div class="special-day">
+          <div class="special-day-header saturday">Saturday</div>
+          <ul>
+            <li><span>Cowboy Breakfast</span><span>$9.25</span></li>
+            <li class="special-note"><span>2 Pancakes, 2 Eggs w/ Bacon, Ham or Sausage Links</span><span></span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top:36px;">
+        <a href="tel:2102277777" class="btn btn-primary">📞 Call (210) 227-7777</a>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
@@ -146,6 +206,10 @@
           <h4>Piedras Negras De Noche</h4>
           <img src="images/rooster.svg" alt="Piedras Negras rooster mascot" class="mascot-footer">
           <p>Authentic Tex-Mex cuisine serving the San Antonio community with family recipes, bold flavors, and warm hospitality.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" style="stroke-width:2"/></svg></a>
+          </div>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>
