@@ -62,6 +62,15 @@
     activeBtn.classList.add('active');
   }
 
+  const BREAKFAST_GALLERY = [
+    'French Toast.jpg',
+    'French Toast 2.jpg',
+    'French Toast 3.jpg',
+    'Waffles.jpg',
+    'Chicken and Waffles.jpg',
+    'Breakfast Items.jpg'
+  ];
+
   // ---------- Render Menu Items ----------
   function renderMenu(categories) {
     menuContainer.innerHTML = '';
@@ -80,6 +89,14 @@
         html += `<p class="menu-category-desc">${cat.description}</p>`;
       }
 
+      if (cat.name === 'Breakfast Plates') {
+        html += '<div class="breakfast-gallery">';
+        BREAKFAST_GALLERY.forEach(function(img) {
+          html += `<img class="breakfast-gallery-img" src="images/food/${img}" alt="Breakfast special" loading="lazy">`;
+        });
+        html += '</div>';
+      }
+
       html += '<div class="menu-items">';
       cat.items.forEach(item => {
         const priceDisplay = item.priceLabel
@@ -88,7 +105,8 @@
             ? `$${item.price.toFixed(2)}`
             : '';
         html += `
-          <div class="menu-item">
+          <div class="menu-item${item.image ? ' menu-item--has-img' : ''}">
+            ${item.image ? `<img class="menu-item-img" src="images/food/${item.image}" alt="${item.name}" loading="lazy">` : ''}
             <div class="menu-item-info">
               <div class="menu-item-name">${item.name}</div>
               ${item.description ? `<div class="menu-item-desc">${item.description}</div>` : ''}

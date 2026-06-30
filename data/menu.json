@@ -24,10 +24,10 @@
       "icon": "🍳",
       "items": [
         { "name": "Huevos Rancheros Plate", "description": "2 Eggs any style topped with ranchero sauce served with beans and potatoes.", "price": 6.95 },
-        { "name": "Huevos Rancheros & Pork Chop", "description": "1 Pork Chop, 2 Eggs any style and potatoes.", "price": 10.25 },
+        { "name": "Huevos Rancheros & Pork Chop", "description": "1 Pork Chop, 2 Eggs any style and potatoes.", "price": 10.25, "image": "Huevos Rancheros Pork Chop Breakfast.jpg" },
         { "name": "Chorizo with Eggs", "description": "2 Eggs scrambled with Mexican sausage, served with beans.", "price": 9.25 },
         { "name": "Chilaquiles", "description": "2 Eggs scrambled with crispy corn strips, jalapeños, chile, tomatoes, onions, chips & melted cheese.", "price": 9.25 },
-        { "name": "Huevos a la Mexicana", "description": "2 Eggs mixed with tomatoes, onions and chile jalapeños, served with beans and potatoes.", "price": 9.25 },
+        { "name": "Huevos a la Mexicana", "description": "2 Eggs mixed with tomatoes, onions and chile jalapeños, served with beans and potatoes.", "price": 9.25, "image": "Huevos Campecinos.jpg" },
         { "name": "Migas Rancheras", "description": "2 Eggs mixed with corn tortilla chips, topped with ranchero sauce.", "price": 9.25 },
         { "name": "Vaquero Breakfast", "description": "Your choice of bacon, sliced ham or country sausage mix with two scrambled eggs, served with beans and potatoes.", "price": 10.25 },
         { "name": "Chicharron with Egg", "description": "2 Eggs mixed with chicharrones, served with beans and potatoes.", "price": 9.25 },
@@ -53,7 +53,7 @@
         { "name": "Ham & Egg", "description": "", "price": 2.99 },
         { "name": "Wiener & Egg", "description": "", "price": 2.99 },
         { "name": "Chorizo & Egg", "description": "", "price": 2.99 },
-        { "name": "Bacon & Egg", "description": "", "price": 2.55 },
+        { "name": "Bacon & Egg", "description": "", "price": 2.55, "image": "Bacon and Eggs Taco.jpg" },
         { "name": "Country & Egg", "description": "", "price": 2.99 },
         { "name": "Huevito a la Mexicana", "description": "", "price": 3.75 },
         { "name": "Migas", "description": "", "price": 4.25 },
@@ -93,9 +93,9 @@
       "name": "Pancakes",
       "icon": "🥞",
       "items": [
-        { "name": "Pancakes Full Stack of 3", "description": "South Texas Pecan Pancakes.", "price": 6.95 },
-        { "name": "3 Pancakes Filled with Pecans", "description": "", "price": 7.25 },
-        { "name": "Cowboys Breakfast", "description": "2 Pancakes with 2 eggs, ham, or bacon or sausage links.", "price": 10.25 }
+        { "name": "Pancakes Full Stack of 3", "description": "South Texas Pecan Pancakes.", "price": 6.95, "image": "Pancakes.jpg" },
+        { "name": "3 Pancakes Filled with Pecans", "description": "", "price": 7.25, "image": "Blueberry Pancakes 2.jpg" },
+        { "name": "Cowboys Breakfast", "description": "2 Pancakes with 2 eggs, ham, or bacon or sausage links.", "price": 10.25, "image": "Pancakes 2.jpg" }
       ]
     },
     {
@@ -126,7 +126,7 @@
       "items": [
         { "name": "1. Piedras Negras Special Dinner", "description": "3 Soft rolled enchiladas with gravy, crispy beef taco, rice & beans. 2 Enchiladas, 1 Taco, 1 Chalupa.", "price": 11.75 },
         { "name": "2. Tacos de Maria", "description": "3 Soft Tacos filled with guacamole & seasoned ground beef topped with white cheese, guacamole & sour cream.", "price": 11.50 },
-        { "name": "3. Enchilada Plate", "description": "Cheese enchiladas served with beans and potatoes, rice and beans.", "price": 10.95 },
+        { "name": "3. Enchilada Plate", "description": "Cheese enchiladas served with beans and potatoes, rice and beans.", "price": 10.95, "image": "Enchilada plate with smalls teak.jpg" },
         { "name": "4. Tamale Dinner", "description": "3 Tamales with gravy, served with rice and beans.", "price": 9.95 },
         { "name": "5. Tostadas Plate", "description": "1 Chili con Queso, 1 Bean & Cheese, served with rice and beans.", "price": 9.85 },
         { "name": "6. Chalupas Rancheras", "description": "2 Bean chalupas topped with white cheese, guacamole, onion.", "price": 10.25 },
@@ -152,7 +152,7 @@
         { "name": "20. Flautas", "description": "2 Crispy flautas filled with beef or chicken, guacamole, 2 crispy flautas served with rice, beans & salad.", "price": 12.75 },
         { "name": "21. Huaraches", "description": "Served with beef or chicken.", "price": 14.75 },
         { "name": "22. Tom's Special", "description": "Crispy flauta-style tacos topped with guacamole.", "price": 11.50 },
-        { "name": "23. Costillas a la Plancha", "description": "Grilled beef ribs served with rice & beans.", "price": 10.25 },
+        { "name": "23. Costillas a la Plancha", "description": "Grilled beef ribs served with rice & beans.", "price": 10.25, "image": "Beef Short Rib Plate.jpg" },
         { "name": "24. Carne Asada a la Mexicana", "description": "Strips of sirloin steak, tomato & onion served with rice & beans.", "price": 12.95 },
         { "name": "25. Gorditas", "description": "Beef or Chicken, served with rice & beans.", "price": 11.95 },
         { "name": "26. Pork Chops & Puffy Taco", "description": "2 Pork chops served with rice, frijoles a la charra & salad.", "price": 11.95 },
@@ -190,7 +190,7 @@
       "name": "Pollo (Chicken)",
       "icon": "🍗",
       "items": [
-        { "name": "Grilled Breast of Chicken Acapulco", "description": "Topped with Monterrey Jack cheese and a slice of pineapple.", "price": 11.95 },
+        { "name": "Grilled Breast of Chicken Acapulco", "description": "Topped with Monterrey Jack cheese and a slice of pineapple.", "price": 11.95, "image": "Chicken fried chicken special.jpg" },
         { "name": "Grilled Breast of Chicken Veracruz", "description": "Topped with shrimp in garlic butter, covered with Monterrey Jack cheese.", "price": 12.95 },
         { "name": "Yolies Favorite Chicken Monterrey", "description": "Topped with Monterrey Jack cheese and mushroom gravy.", "price": 11.95 },
         { "name": "Grilled Breast of Chicken al Chipotle", "description": "Topped with chipotle sauce & Monterrey Jack cheese.", "price": 11.95 },
@@ -247,7 +247,7 @@
       "name": "Tacos de Maíz",
       "icon": "🌽",
       "items": [
-        { "name": "(2) Puffy Tacos", "description": "Beef or Chicken. Served with rice & beans.", "price": 10.75 },
+        { "name": "(2) Puffy Tacos", "description": "Beef or Chicken. Served with rice & beans.", "price": 10.75, "image": "Puffy Taco Plate.jpg" },
         { "name": "(3) Crispy Tacos", "description": "Beef or Chicken. Served with rice & beans.", "price": 10.75 }
       ]
     },
@@ -268,7 +268,7 @@
       "icon": "🥩",
       "items": [
         { "name": "Steak Fillet & Chile Relleno", "description": "Steak ranchero & chile relleno served with rice, beans, special sauce & salad.", "price": 13.95 },
-        { "name": "Tripas Plate", "description": "Served with rice & beans.", "price": 14.95 },
+        { "name": "Tripas Plate", "description": "Served with rice & beans.", "price": 14.95, "image": "Tripas Tacos.jpg" },
         { "name": "Steak Fillet & Puffy Taco", "description": "Served with rice, beans & salad.", "price": 12.95 },
         { "name": "Steak Fillet & Enchilada", "description": "Served with rice, beans & salad.", "price": 12.95 },
         { "name": "Steak Fillet & Shrimp", "description": "Served with rice, beans & salad.", "price": 13.95 }

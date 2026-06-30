@@ -462,6 +462,44 @@ nav a.active {
   white-space: nowrap;
 }
 
+.menu-item--has-img {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  border-bottom: none;
+}
+.menu-item--has-img .menu-item-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+.menu-item--has-img .menu-item-info {
+  padding: 0.65rem 0.85rem 0;
+}
+.menu-item--has-img .menu-item-price {
+  padding: 0.2rem 0.85rem 0.65rem;
+}
+
+.breakfast-gallery {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.5rem 0 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.breakfast-gallery-img {
+  flex: 0 0 auto;
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+
 /* Menu search */
 .menu-search-wrapper {
   max-width: 420px;
@@ -977,6 +1015,14 @@ footer {
 .special-day-header.thursday  { background: #1a5c2a; color: #fff; }
 .special-day-header.friday    { background: #8B0000; color: #fff; }
 .special-day-header.saturday  { background: #5a3000; color: #f5c200; }
+
+.special-day-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
 
 .special-day ul {
   list-style: none;
